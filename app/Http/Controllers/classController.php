@@ -11,14 +11,14 @@ class classController extends Controller
     }
 
     public function salles(){
-        return view ('classList');
+        return view ('othersPages/classList');
     }
 
     public function groupes(){
-        return view ('groupesList');
+        return view('othersPages/groupesList');
     }
 
     public function occupation(){
-        return view ('classOccupation');
+        return view::make('othersPages/classOccupation');
     }
 }

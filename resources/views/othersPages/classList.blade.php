@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    @include('partiels.head')
-</head>
-<body>
-    @include('partiels.navbar')
-    
-</body>
-</html>
+@extends('layout')
+
+@section('body1')
+
+    <h1>Listes des salles</h1>
+
+@endsection    
+

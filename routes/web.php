@@ -15,8 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'classController@accueil');
 
-// Route::get('/', 'classController@classList');
+Route::get('/othersPages', 'classController@salles');
 
-// Route::get('/', 'classController@groupesList');
+Route::get('/othersPages', 'classController@groupes');
 
-// Route::get('/', 'classController@classOccupation');
+Route::get('/othersPages', 'classController@occupation');
