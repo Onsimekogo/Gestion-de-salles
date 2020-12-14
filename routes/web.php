@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 use Illuminate\Support\Facades\Route;
 
@@ -15,8 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'classController@accueil');
 
-Route::get('/othersPages', 'classController@salles');
+Route::get('/salles', 'classController@salles');
 
-Route::get('/othersPages', 'classController@groupes');
+Route::get('/groupes', 'classController@groupes');
 
-Route::get('/othersPages', 'classController@occupation');
+Route::get('/occupation', 'classController@occupation');

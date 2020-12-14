@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class classController extends Controller
 {
     public function accueil(){
-        return view ('index');
+        return view ('Index');
     }
 
     public function salles(){
